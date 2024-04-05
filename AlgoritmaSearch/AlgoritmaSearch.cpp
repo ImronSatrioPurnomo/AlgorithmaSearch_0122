@@ -33,12 +33,18 @@ void LinearSearch() {
 
 		ctr = 0;
 		i = 0;
-		while (i < n) {
+		while (i < n) 
+		{
 			ctr++;
-			if (arr[i] == item) {
+			if (arr[i] == item) 
+			{
 				cout << "\n" << item << "Temukan di posisi" << (i + 1) << endl;
 				break;
 			}
+			i++;
 		}
+		if (i == n)
+			cout << "\n" << item << "tidak di temukan di dalam array\n";
+		cout << "\nJumlah perbandingan: " << ctr << endl;
 	}
 }
