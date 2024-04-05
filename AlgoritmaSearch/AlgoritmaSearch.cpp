@@ -49,5 +49,10 @@ void LinearSearch() {
 
 		cout << "\nLanjutkan mencari (y/n): ";
 		cin >> ch;
-	}
+	} while ((ch == 'y') || (ch == 'Y'));
+}
+
+void display()
+{
+	cout << "Elemen array adalah: ";
 }
