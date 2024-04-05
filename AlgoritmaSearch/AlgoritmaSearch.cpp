@@ -46,5 +46,8 @@ void LinearSearch() {
 		if (i == n)
 			cout << "\n" << item << "tidak di temukan di dalam array\n";
 		cout << "\nJumlah perbandingan: " << ctr << endl;
+
+		cout << "\nLanjutkan mencari (y/n): ";
+		cin >> ch;
 	}
 }
