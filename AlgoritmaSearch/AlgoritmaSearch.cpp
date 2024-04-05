@@ -49,7 +49,7 @@ void LinearSearch() {
 
 		cout << "\nLanjutkan mencari (y/n): ";
 		cin >> ch;
-	} while ((ch == 'y') || (ch == 'Y'));
+	} while ((ch == 'y') || (ch == 'Y'))
 }
 
 void display()
@@ -58,4 +58,8 @@ void display()
 	for (i = 0; i < n; i++)
 		cout << arr[i] << " ";
 	cout endl;
+}
+
+int main()
+{
 }
